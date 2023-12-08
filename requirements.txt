@@ -1,0 +1,8 @@
+streamlit
+matplotlib
+plotly
+pandas
+numpy
+ipython
+mpld3
+Pillow
