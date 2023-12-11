@@ -10,7 +10,7 @@ st.set_page_config(
     page_icon="🏚️",
 )
 
-st.title('Proyecto Filosofia')
+st.title('Philo Data Grapher')
 
 def _max_width_(prcnt_width:int = 75):
     max_width_str = f"max-width: {prcnt_width}%;"
