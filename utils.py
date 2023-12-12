@@ -72,8 +72,8 @@ def graf_2d(df_filtrado_C, caso):
     # Graficar los datos
     ax.plot(x, x1, marker='o', label='Docente', color='red')
     ax.plot(x, x2, marker='o', label='Estudiante 1', color='green')
-    ax.plot(x, x4, marker='o', label='Estudiante 2', color='blue')
-    ax.plot(x, x3, marker='o', label='Estudiante 3', color='purple')
+    ax.plot(x, x4, marker='o', label='Estudiante 2', color='purple')
+    ax.plot(x, x3, marker='o', label='Estudiante 3', color='blue')
 
     ax.set_xlabel('TIEMPO')
     ax.set_ylabel('NIVEL')
