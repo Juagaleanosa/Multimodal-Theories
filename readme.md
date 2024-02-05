@@ -1,3 +1,3 @@
-# Multimodal Theories proyect
+# *Multimodal Theories* is a proyect by tesis for a Phd in filosophy. 
 
-Enlace: https://prueba-filosofia-unal.streamlit.app/](https://philodatagrapher.streamlit.app/)https://philodatagrapher.streamlit.app/
+Enlace: https://philodatagrapher.streamlit.app/
