@@ -72,8 +72,8 @@ def graf_2d(df_filtrado_C, caso):
     # Graficar los datos
     ax.plot(x, x1, marker='o', label='Docente', color='red')
     ax.plot(x, x2, marker='o', label='Estudiante 1', color='green')
-    ax.plot(x, x4, marker='o', label='Estudiante 2', color='purple')
-    ax.plot(x, x3, marker='o', label='Estudiante 3', color='blue')
+    ax.plot(x, x4, marker='o', label='Estudiante 2', color='blue')
+    ax.plot(x, x3, marker='o', label='Estudiante 3', color='purple')
 
     ax.set_xlabel('TIEMPO')
     ax.set_ylabel('NIVEL')
@@ -205,19 +205,13 @@ def scatter_3d(df_filtrado, df, caso):
         )
 
     # Crear trazos 3D iniciales con etiquetas
+    traces = [
+        add_trace_3d_with_labels(df_filtrado['TIEMPO'], df_filtrado['DOCENTE E'], df_filtrado['DOCENTE S'], 'red', 0.7, 'DOCENTE', df_filtrado['DOCENTE CODIGO M']),
+        add_trace_3d_with_labels(df_filtrado['TIEMPO'], df_filtrado['Est 1 E'], df_filtrado['Est 1 S'], 'green', 0.5, 'ESTUDIANTE 1', df_filtrado['Est 1 CODIGO M']),
+        add_trace_3d_with_labels(df_filtrado['TIEMPO'], df_filtrado['Est 2 E'], df_filtrado['Est 2 S'], 'purple', 0.4, 'ESTUDIANTE 2', df_filtrado['Est 2 CODIGO M']),
+        add_trace_3d_with_labels(df_filtrado['TIEMPO'], df_filtrado['Est 3 E'], df_filtrado['Est 3 S'], 'blue', 0.3, 'ESTUDIANTE 3', df_filtrado['Est 3 CODIGO M'])
+    ]
 
-#_____AQuí el cambio____
-
-        traces = [
-            add_trace_3d_with_labels(df_filtrado['TIEMPO'], df_filtrado['DOCENTE E'], df_filtrado['DOCENTE S'], 'red', 0.7, 'DOCENTE', df_filtrado['DOCENTE CODIGO M']),
-            add_trace_3d_with_labels(df_filtrado['TIEMPO'], df_filtrado['Est 1 E'], df_filtrado['Est 1 S'], 'green', 0.5, 'ESTUDIANTE 1', df_filtrado['Est 1 CODIGO M']),
-            add_trace_3d_with_labels(df_filtrado['TIEMPO'], df_filtrado['Est 2 E'], df_filtrado['Est 2 S'], 'purple', 0.4, 'ESTUDIANTE 2', df_filtrado['Est 2 CODIGO M']),
-            add_trace_3d_with_labels(df_filtrado['TIEMPO'], df_filtrado['Est 3 E'], df_filtrado['Est 3 S'], 'blue', 0.3, 'ESTUDIANTE 3', df_filtrado['Est 3 CODIGO M'])
-        ]
-
-    #___________________
-
-    
     # Agregar los trazos 3D al gráfico
     for trace in traces:
         fig.add_trace(trace)
