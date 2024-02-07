@@ -4,6 +4,7 @@ import plotly.graph_objs as go
 import plotly.io as pio
 from IPython.display import clear_output
 from matplotlib.animation import FuncAnimation
+import numpy as np
 
 
 def codigo_especializacion(df_filtrado, caso):
