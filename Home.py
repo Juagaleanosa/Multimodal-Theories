@@ -102,9 +102,9 @@ else:
     
 # Agrega una caja con el texto deseado
 st.markdown("""
-    <div style="background-color: #161B22; padding: 8px; border-radius: 10px;">
+    <div style="background-color: #161B22; padding: 8px; border-radius: 5px;">
         <p style="text-align: center;">
-            Dávila, M. V., Tamayo, A. Ó. E., Galeano, S. J. A. (2024). Philodatagrapher (versión 1) [Aplicación móvil]. Streamlit.app. <a href="https://philodatagrapher.streamlit.app">https://philodatagrapher.streamlit.app</a>.
+           Para citar este artículo: Dávila, M. V., Tamayo, A. Ó. E., Galeano, S. J. A. (2024). Philodatagrapher (versión 1) [Aplicación móvil]. Streamlit.app. <a href="https://philodatagrapher.streamlit.app">https://philodatagrapher.streamlit.app</a>.
         </p>
     </div>
 """, unsafe_allow_html=True)
