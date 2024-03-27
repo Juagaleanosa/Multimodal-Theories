@@ -14,7 +14,7 @@ st.title('Philo Data Grapher')
 
 # Agrega una caja con el texto deseado
 st.markdown("""
-    <div style="background-color: #3A3B46; padding: 10px; border-radius: 15px;">
+    <div style="background-color: #999AFF; padding: 10px; border-radius: 15px;">
         <p style="text-align: center;">
            <big><strong>Para citar este artículo:</strong></big> Dávila, M. V., Tamayo, A. Ó. E., Galeano, S. J. A. (2024). Philodatagrapher (versión 1) [Aplicación móvil].Streamlit.app.<ahttps://philodatagrapher.streamlit.app>https://philodatagrapher.streamlit.app</a>.</.
         </p>
