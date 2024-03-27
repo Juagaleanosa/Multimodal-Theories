@@ -16,7 +16,7 @@ st.title('Philo Data Grapher')
 st.markdown("""
     <div style="background-color: #D2A8FF; padding: 10px; border-radius: 10px;">
         <p style="text-align: center; color: #3A3B46;">
-           <big><strong>Para citar esta aplicación: </strong></big> Dávila, M. V., Tamayo, A. Ó. E., Galeano, S. J. A. (2024). Philodatagrapher (versión 1) [Aplicación móvil].Streamlit.app.<a https://philodatagrapher.streamlit.app>https://philodatagrapher.streamlit.app</a>.
+           <big><strong>Para citar esta aplicación: </strong></big> Dávila, M. V., Tamayo, A. Ó. E., Galeano, S. J. A. (2024). Philodatagrapher (versión 1) [Aplicación móvil].Streamlit.app.<ahttps://philodatagrapher.streamlit.app>https://philodatagrapher.streamlit.app</a>.
         </p>
     </div>
 """, unsafe_allow_html=True)
