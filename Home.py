@@ -21,8 +21,6 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-""", unsafe_allow_html=True)
-
 def _max_width_(prcnt_width:int = 75):
     max_width_str = f"max-width: {prcnt_width}%;"
     st.markdown(f""" 
