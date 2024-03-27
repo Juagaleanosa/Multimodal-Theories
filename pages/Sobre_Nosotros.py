@@ -43,11 +43,11 @@ with st.container():
     with col3:
         st.markdown("""
                 #### Verónica Dávila Manrique
-                Licenciada en Filosofía y Letras - Universidad de Caldas <br>
-                Magister en Educación - Universidad de Caldas <br>
-                Especialista en Gerencia Educativa - Universidad Católica de Manizales <br>
-                Candidata a Doctora en Educación - Universidad de Caldas <br>
-                Joven investigadora de Colciencias (2014-2015) <br><br>
+                Licenciada en Filosofía y Letras - Universidad de Caldas. <br>
+                Magister en Educación - Universidad de Caldas. <br>
+                Especialista en Gerencia Educativa - Universidad Católica de Manizales. <br>
+                Candidata a Doctora en Educación - Universidad de Caldas. <br>
+                Joven investigadora de Colciencias. (2014-2015) <br><br>
                 veronica.davila@ucaldas.edu.co
                 """,
                 unsafe_allow_html=True,)
@@ -61,10 +61,10 @@ with st.container():
     with col3:
         st.markdown("""
                 #### Óscar Eugenio Tamayo Alzate
-                Licenciado en Biología y Química - Universidad de Caldas <br>
-                Magister en Desarrollo Educativo y Social - Universidad Pedagógica Nacional <br>
-                Magister en Didáctica de las Ciencias Experimentales y de las Matemáticas - Universidad de Barcelona <br>
-                Doctor en Didáctica de las Ciencias Experimentales y de las Matemáticas - Universidad de Barcelona <br><br>
+                Licenciado en Biología y Química - Universidad de Caldas. <br>
+                Magister en Desarrollo Educativo y Social - Universidad Pedagógica Nacional. <br>
+                Magister en Didáctica de las Ciencias Experimentales y de las Matemáticas - Universidad de Barcelona. <br>
+                Doctor en Didáctica de las Ciencias Experimentales y de las Matemáticas - Universidad de Barcelona. <br><br>
                 oscar.tamayo@ucaldas.edu.co
                 """,
                 unsafe_allow_html=True,)
@@ -78,7 +78,7 @@ with st.container():
     with col3:
         st.markdown("""
                 #### Julian Alberto Galeano Sarmiento
-                Estudiante de Ciencias Computacionales - Universidad Nacional de Colombia <br><br>
+                Estudiante de Ciencias de la Computación - Universidad Nacional de Colombia. <br><br>
                 juagaleanosa@unal.edu.co
                 """,
                 unsafe_allow_html=True,)
