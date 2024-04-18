@@ -180,15 +180,15 @@ if button:
                 fig_plotly_2 = scatter_3d(df_filtrado, df, caso_select)
                 st.plotly_chart(fig_plotly_2, use_container_width=True, theme='streamlit', sharing="streamlit")
     
-   with tab2:
-        # Parte 1
-        with st.container():
-            archivos_anims, df_filtrado_C, df_filtrado = procesar_caso(df, caso_select)
-            nombres_vars_anims_esp = {}
-            cols = st.columns(len(archivos_anims))
-            for num, anim in enumerate(archivos_anims):
-                with cols[num]:
-                    nombres_vars_anims_esp[num] = components.html(anim.to_jshtml(), width=590, height=490)
+       with tab2:
+            # Parte 1
+            with st.container():
+                archivos_anims, df_filtrado_C, df_filtrado = procesar_caso(df, caso_select)
+                nombres_vars_anims_esp = {}
+                cols = st.columns(len(archivos_anims))
+                for num, anim in enumerate(archivos_anims):
+                    with cols[num]:
+                        nombres_vars_anims_esp[num] = components.html(anim.to_jshtml(), width=590, height=490)
 
     with tab3:
         # Parte 2
