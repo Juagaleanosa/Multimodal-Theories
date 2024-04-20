@@ -184,13 +184,13 @@ if button:
                 for num, anim in enumerate(archivos_anims):
                     with containers[count_container]:
                         with cols[num]:
-                            nombres_vars_anims_esp[num] = components.html(anim.to_jshtml(), width=590, height=490)
+                            nombres_vars_anims_esp[num] = components.html(anim.to_jshtml(), width=490, height=390)
                     count_container += 1
             else:
                 cols = st.columns(num_figs)
                 for num, anim in enumerate(archivos_anims):
                     with cols[num]:
-                        nombres_vars_anims_esp[num] = components.html(anim.to_jshtml(), width=590, height=490)
+                        nombres_vars_anims_esp[num] = components.html(anim.to_jshtml(), width=490, height=390)
             ##
 
     with tab3:
