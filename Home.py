@@ -3,7 +3,7 @@ import pandas as pd
 import time
 import streamlit.components.v1 as components
 import mpld3
-from utils_2 import procesar_caso, obtener_casos, graf_2d, scatter_2d, scatter_3d
+from utils import procesar_caso, obtener_casos, graf_2d, scatter_2d, scatter_3d
 
 st.set_page_config(
     page_title="Home",
