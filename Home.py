@@ -169,29 +169,29 @@ if button:
                 fig_plotly_2 = scatter_3d(df_filtrado, df, caso_select)
                 st.plotly_chart(fig_plotly_2, use_container_width=True, theme='streamlit', sharing="streamlit")
     
-    with tab2:
-        # Parte 1
-        with st.container():
-            archivos_anims, df_filtrado_C, df_filtrado = procesar_caso(df, caso_select)
-            nombres_vars_anims_esp = {}
-            ## New feature
-            num_figs = len(archivos_anims)
-
-            if (num_figs > 2):
-                containers = st.container((num_figs//2)+1)
-                cols = st.columns(num_figs)
-                count_container = 0
-                for num, anim in enumerate(archivos_anims):
-                    with containers[count_container]:
-                        with cols[num]:
-                            nombres_vars_anims_esp[num] = components.html(anim.to_jshtml(), width=590, height=490)
-                    count_container += 1
-            else:
-                cols = st.columns(num_figs)
-                for num, anim in enumerate(archivos_anims):
-                    with cols[num]:
-                        nombres_vars_anims_esp[num] = components.html(anim.to_jshtml(), width=590, height=490)
-            ##
+            with tab2:
+                # Parte 1
+                with st.container():
+                    archivos_anims, df_filtrado_C, df_filtrado = procesar_caso(df, caso_select)
+                    nombres_vars_anims_esp = {}
+                    ## New feature
+                    num_figs = len(archivos_anims)
+        
+                    if (num_figs > 2):
+                        containers = st.container((num_figs//2)+1)
+                        cols = st.columns(num_figs)
+                        count_container = 0
+                        for num, anim in enumerate(archivos_anims):
+                            with containers[count_container]:
+                                with cols[num]:
+                                    nombres_vars_anims_esp[num] = components.html(anim.to_jshtml(), width=590, height=490)
+                            count_container += 1
+                    else:
+                        cols = st.columns(num_figs)
+                        for num, anim in enumerate(archivos_anims):
+                            with cols[num]:
+                                nombres_vars_anims_esp[num] = components.html(anim.to_jshtml(), width=590, height=490)
+                    ##
 
     with tab3:
         # Parte 2
